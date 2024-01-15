@@ -19,7 +19,7 @@ Edin Hasagic & Google
 # Follow this steps to run the app:
 
 Clone the repo
-# git clone https://github.com/edinhassagic/edin-monetizeAd
+# git clone https://github.com/edinhassagic/monetizeAD
 Install NPM packages
 # npm install
 Start the project 
