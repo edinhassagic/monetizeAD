@@ -19,7 +19,7 @@ const Registration = () => {
     subscribeToNewsLetter: false,
     gender: "male",
     status: "active",
-    yearOfBirth: 1990,
+    yearOfBirth: "",
   });
 
   const [registrationStatus, setRegistrationStatus] = useState(null);
