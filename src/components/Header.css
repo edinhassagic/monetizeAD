@@ -1,0 +1,137 @@
+/* HOME COPOMENENT */
+.home-main {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
+.monetize-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: whitesmoke;
+  color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  font-size: 1rem;
+  width: 150px;
+}
+
+.text a {
+  color: black;
+  text-decoration: none;
+}
+
+.desktop-nav p {
+  margin: 0px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav button {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-nav {
+  display: flex;
+}
+
+.desktop-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.desktop-nav li {
+  margin: 0 1rem;
+}
+
+.mobile-nav-toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav button {
+    margin-left: auto;
+  }
+
+  .desktop-nav.mobile-visible {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+
+  .desktop-nav.mobile-visible ul {
+    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desktop-nav.mobile-visible li {
+    margin: 0.5rem 0;
+  }
+
+  .monetize-img{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+
+    max-width: 100%;
+  }
+}

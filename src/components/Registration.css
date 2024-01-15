@@ -1,0 +1,53 @@
+.register-main {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.register-main h2 {
+  text-align: center;
+  color: #333;
+}
+
+.register-main form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.register-main label {
+  font-weight: bold;
+  
+}
+
+.register-main input,
+.register-main select {
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.register-main button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-main button:hover {
+  background-color: #0056b3;
+}
+
+.register-main p {
+  margin-top: 10px;
+  text-align: center;
+}
